@@ -6,12 +6,14 @@ Easy Library to animate bash apps.
 Main Library file: pyanimated.py
 Testing file: testpyanimated.py
 
-Save PyAnimated folder in the working directory.
+SET-UP
 
-<from PyAnimated.pyanimated import *> in the file to used
+1. Save PyAnimated folder in the working directory.
 
-Example:
+2. <from PyAnimated.pyanimated import *> in the file to import the lib.
 
-from PyAnimated.pyanimated import *
+3. Example:
 
-PyAnimated().textAnimated("Hello world! Hello world! Hello world!", 0.01)
+   from PyAnimated.pyanimated import *
+
+   PyAnimated().textAnimated("Hello world! Hello world! Hello world!", 0.01)
