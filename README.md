@@ -12,8 +12,4 @@ SET-UP
 
 2. <from PyAnimated.pyanimated import *> in the file to import the lib.
 
-3. Example:
-
-   from PyAnimated.pyanimated import *
-
-   PyAnimated().textAnimated("Hello world! Hello world! Hello world!", 0.01)
+3. Call the method you want.
