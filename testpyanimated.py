@@ -3,13 +3,15 @@ from sys import *
 from time import *
 
 
-class IntAnimated:
+
+class PyAnimated:
 	"""Intro Animation Class
 	"""
 
+
 	def intro(self):
 		"""Return intro text.
-		>>> IntAnimated().intro()
+		>>> PyAnimated().intro()
 		"""
 
 		introText = "<===== PyAnimated, your animated Python Library. =====>"
@@ -18,14 +20,39 @@ class IntAnimated:
 			stdout.write(i), stdout.flush()
 			sleep(0.01)
 
+
 	def textAnimated(self, text, speed):
 			"""Return customed text with indicated speed(sec)
-			>>> IntAnimated().textAnimated("Hello world! Hello world! Hello world!", 0.01)
+			>>> PyAnimated().textAnimated("Hello world! Hello world! Hello world!", 0.01)
 			"""
 
 			for i in text:
 				stdout.write(i), stdout.flush()
 				sleep(speed)
+
+
+	def verticalTextAnimated(self, text, speed):
+		"""Return customed text with indicated speed(sec) in vertical
+		>>> PyAnimated().verticalTextAnimated("Hello World!", 0.1)
+		H
+		e
+		l
+		l
+		o
+		<BLANKLINE>
+		W
+		o
+		r
+		l
+		d
+		!
+		"""
+
+		for i in text:
+			print(i)
+			sleep(speed)
+
+
 
 if __name__ == "__main__":
     doctest.testmod()
