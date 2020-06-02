@@ -18,5 +18,14 @@ class IntAnimated:
 			stdout.write(i), stdout.flush()
 			sleep(0.01)
 
+	def textAnimated(self, text, speed):
+			"""Return customed text with indicated speed(sec)
+			>>> IntAnimated().textAnimated("Hello world! Hello world! Hello world!", 0.01)
+			"""
+
+			for i in text:
+				stdout.write(i), stdout.flush()
+				sleep(speed)
+
 if __name__ == "__main__":
     doctest.testmod()

@@ -16,7 +16,12 @@ class IntAnimated:
 			stdout.write(i), stdout.flush()
 			sleep(0.05)
 			
+	def textAnimated(self, text, speed):
+		"""Return customed text with indicated speed(sec)
+		"""
 
-if __name__ == "__main__":
+		for i in text:
+			stdout.write(i), stdout.flush()
+			sleep(speed)
 
-    IntAnimated().intro()
+#if __name__ == "__main__":
