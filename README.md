@@ -1,6 +1,4 @@
 # PyAnimated
 Easy Library to animate bash apps.
 
-<=========================================>
- PyAnimated, your animated Python Library.
-<=========================================>
+<===== PyAnimated, your animated Python Library. =====>
