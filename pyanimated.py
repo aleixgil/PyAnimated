@@ -7,5 +7,8 @@ class IntAnimated:
 	"""Intro Animation Class
 	"""
 
+	def intro(self):
+		"""
+		"""
 
-
+		
